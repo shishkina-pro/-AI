@@ -30,5 +30,8 @@ claude mcp add --transport http demonstrator-mcp \
 
 ### Правила / скиллы
 
-Содержимое zip-архива от Longread распакуйте в правила проекта
-(`.cursor/rules`, `AGENTS.md` или `.claude/skills` — как принято у вас).
+Правила из `demonstrator-agent-rules.zip` распакованы в
+`.claude/skills/demonstrator-author/` — Claude Code подхватывает их как скилл
+`demonstrator-author`. `AGENTS.md` (его читают Cursor и Claude Code через `CLAUDE.md`)
+указывает на эти правила. Обновление — скачать свежий zip с
+https://app.longread.agency/agent/ и заменить файлы в папке.
