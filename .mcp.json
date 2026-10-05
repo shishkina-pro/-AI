@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "demonstrator-mcp": {
+      "type": "http",
+      "url": "https://app.longread.agency/mcp/demonstrator/mcp",
+      "headers": {
+        "Authorization": "Bearer ${LONGREAD_API_TOKEN}"
+      }
+    }
+  }
+}
